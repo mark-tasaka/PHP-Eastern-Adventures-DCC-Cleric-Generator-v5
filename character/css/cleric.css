@@ -196,7 +196,7 @@ body{
 
 #wealth{
     position:absolute;
-    top: 855px;
+    top: 878px;
     left: 680px;
     font-size: 0.6em;
     width: 230px;
@@ -206,7 +206,7 @@ body{
 #abilityScoreGeneration{
     position:absolute;
     top: 1145px;
-    left: 410px;
+    left: 680px;
     font-size: 0.5em;
     width: 240px;
 }
@@ -463,7 +463,14 @@ body{
 #attackBonus{
     position:absolute;
     top: 227px;
-    left: 450px;
+    left: 475px;
+    font-size: 0.9em;
+}
+
+#spellCheck{
+    position:absolute;
+    top: 227px;
+    left: 595px;
     font-size: 0.9em;
 }
 
@@ -485,10 +492,10 @@ body{
 
 #languages{
     position:absolute;
-    top: 750px;
-    left:  405px;
+    top: 995px;
+    left: 680px;
     font-size: 0.8em;
-    width: 240px;
+    width: 230px;
 }
 
 
