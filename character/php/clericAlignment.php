@@ -43,17 +43,17 @@ function getDeityWeapons($input)
 
     if($input >=0 && $input <=7)
     {
-        $weapons = "Club, mace, sling, staff & warhammer.";
+        $weapons = "Polearm [naginata], club, mace, sling, staff [bo/jo], war hammer [otsuchi], nunchaku, tonfa.";
     }
 
     if($input >=8 && $input <=11)
     {
-        $weapons = "Dagger, mace, sling, staff & sword (any).";
+        $weapons = "Polearm [naginata], dagger [tanto], mace, sling, staff, sword (any), jutte, sai.";
     }
 
     if($input >11)
     {
-        $weapons = "Axe (any), bow (any), dagger, dark & flail.";
+        $weapons = "Polearm [naginata], axe (any), dagger [tanto], dart [shuriken], flail [chigiriki], kama.";
     }
 
     return $weapons;
@@ -66,17 +66,17 @@ function getDeityUnholy($input)
 
     if($input >=0 && $input <=7)
     {
-        $unholy = "Undead, demons, devils, chaotic extraplanar creatures, monsters, Chaotic Primes, chaotic humanoids & chaotic dragons";
+        $unholy = "Undead, oni, ghosts, shapeshifters, abominations of nature (i.e., ashinaga-tenaga), chaos-aligned extraplanar creatures.";
     }
 
     if($input >=8 && $input <=11)
     {
-        $unholy = "Mundane animals, undead, demons, devils, monsters, lycanthropes & perversions of nature";
+        $unholy = "Undead, mundane animals, kappa, giant spiders, spirits, ghosts, ogre-like creatures (i.e., namahage), bakemono.";
     }
 
     if($input >11)
     {
-        $unholy = "Angels, paladins, lawful dragons, Lords of Law, Lawful Primes & Law-aligned humaniods";
+        $unholy = "Animals capable of human speech (i.e., Inugami), lawful spirits, catlike humanoids (i.e., nekomata), aquatic humanoids, law-aligned dragons, law-aligned extraplanar creatures.";
     }
 
     return $unholy;
