@@ -5,6 +5,10 @@ The Dungeon Crawl Classics Eastern Adventures Redux Cleric [Sohei] Character Gen
 -------------
 
 
+Update 1.03: 2022-06-02
+
+Updates to dccCleric.php, cleric.css, cleric.png, clericAlignment.php and gear.php.
+
 
 Update 1.02: 2022-06-01
 
