@@ -77,12 +77,40 @@
 
 
         
-
+/*
 
         if(isset($_POST["theAlignment"]))
         {
             $alignment = $_POST["theAlignment"];
+        }*/
+
+
+        //For Random Select Diety
+        if(isset($_POST['thecheckBoxRandomDiety']) && $_POST['thecheckBoxRandomDiety'] == 1) 
+        {
+            $deity = rand (0, 15);
+
         }
+        else
+        {
+            if(isset($_POST["theDeity"]))
+            {
+                $deity = $_POST["theDeity"];
+                $deity = (int)$deity;
+            }
+
+        }
+
+        $deityName = getDeity($deity)[0];
+        $deityDescription = getDeity($deity)[1];
+        $alignment = getDeity($deity)[2];
+
+        $weaponsAllowed = getDeityWeapons($deity);
+
+        $unholy = getDeityUnholy($deity);
+
+
+
     
         if(isset($_POST["theLevel"]))
         {
@@ -892,8 +920,15 @@
            ?>
            </span>
 
+           <span id="deity">
+           <?php
+           echo $deityName . " (" . $deityDescription . ")<br/><br/> Weapons (holy): " . $weaponsAllowed . "<br/><br/> Unholy Creatures: " . $unholy;
+           ?>
+       </span>
+
+
        
-<span id="layHandsLaw1">
+        <span id="layHandsLaw1">
             <?php
                 echo $layHandsLaw1;
             ?>
