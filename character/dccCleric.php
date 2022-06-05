@@ -410,19 +410,6 @@
        $level4Spells = $spellsPerLevel[3];
        $level5Spells = $spellsPerLevel[4];
 
-       
-       /*
-       if(isset($_POST["theLuckyWeapon"]))
-       {
-           $luckyWeaponNumberString = $_POST["theLuckyWeapon"];
-       } 
-
-       $luckyWeaponNumber = (int)$luckyWeaponNumberString;
-       $luckyWeapon = getWeapon($luckyWeaponNumber)[0];
-       */
-
-
-
         $weaponArray = array();
         $weaponNames = array();
         $weaponDamage = array();

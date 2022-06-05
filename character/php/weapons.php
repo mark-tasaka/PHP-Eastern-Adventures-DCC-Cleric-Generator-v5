@@ -46,24 +46,24 @@
     
         if($alignment == "Lawful")
         {
-            $weaponsAvaliable = array(15, 3, 14, 18, 20, 22, 23, 25);
+            $weaponsAvaliable = array(3, 14, 18, 20, 22, 23, 25);
         }
         
         if($alignment == "Neutral")
         {
-            $weaponsAvaliable = array(15, 5, 14, 18, 20, 13, 17, 21, 24, 26);
+            $weaponsAvaliable = array(5, 14, 18, 20, 13, 17, 21, 24, 26);
         }
     
         if($alignment == "Chaotic")
         {
-            $weaponsAvaliable = array(15, 9, 0, 5, 6, 7, 27);
+            $weaponsAvaliable = array(9, 0, 5, 6, 7, 27);
         }
     
         shuffle($weaponsAvaliable); 
     
         $numberOfWeapons = rand (2, 5);
     
-        $weaponsHas = array();
+        $weaponsHas = array(15);
     
         for($j = 0; $j < $numberOfWeapons; ++$j)
         {

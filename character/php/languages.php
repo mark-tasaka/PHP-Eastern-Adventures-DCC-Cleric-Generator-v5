@@ -1,6 +1,6 @@
 <?php
 
-
+/* Cleric */
 function getLanguages($intMod, $luckMod, $luckySign, $alignment, $intelligence)
 {
         $bonusLanguages = 0;
@@ -8,7 +8,7 @@ function getLanguages($intMod, $luckMod, $luckySign, $alignment, $intelligence)
         $languages = array();
         array_push($languages, 'Common');
 
-        $languagesAvailable = array("Amabie", "Bakemono", "Kappa", "Karura", "Kitsune", "Komainu", "Koropokuru", "Kobold", "Mikoshi-nyūdō ", "Mizuchi", "Mujina", "Namahage", "Nekomata", "Ningyo", "Ogre-magi", "Oni", "Onikuma ", "Shojo", "Tengu");
+        $languagesAvailable = array("Amabie","Ashinaga-tenaga", "Bakemono", "Bakeneko", "Inugami", "Kappa", "Karura", "Kitsune", "Komainu", "Koropokuru", "Kobold", "Mikoshi-nyūdō ", "Mizuchi", "Mujina", "Namahage", "Nekomata", "Ningyo", "Ogre-magi", "Oni", "Onikuma ", "Shojo", "Tengu");
 
         $alignmentTongue = "Alignment Tongue (" . $alignment . ")";
 
