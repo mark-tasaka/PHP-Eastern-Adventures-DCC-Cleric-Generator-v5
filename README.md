@@ -4,6 +4,16 @@ The Dungeon Crawl Classics Eastern Adventures Redux Cleric [Sohei] Character Gen
 
 -------------
 
+A live version of the Dungeon Crawl Classics Cleric [Sohei] Character Generator Version 5 is available at: 
+
+https://www.tasaka-games.com/dcc_ea/more/classes/cleric/
+
+-------------
+
+Update 1.04: 2022-06-05
+
+Updates to dccCleric.php, weapons.php and languages.php.
+
 
 Update 1.03: 2022-06-02
 
